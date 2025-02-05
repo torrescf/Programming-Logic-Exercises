@@ -35,7 +35,7 @@ void redimensionamento(int &tamanho, jogo* &mercado) {
     mercado = novovetor;
     tamanho = novo_tamanho;
 }
-
+//
 void busca_sequencial(int &tamanho, jogo* mercado, float busca) {
     bool achou = false;
     for (int i = 0; i < tamanho; i++) {
